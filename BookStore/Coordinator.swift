@@ -19,9 +19,19 @@ struct Coordinator: View {
     
     var body: some View {
         NavigationView {
-            NavigationStack(path: $screens) {
-                Color.green
+            NavigationStack() {
+                viewHandle()
             }
+        }
+    }
+    
+    @ViewBuilder
+    private func viewHandle() -> some View {
+        switch screens.last {
+        case .mainFlow:
+            Color.blue
+        case .none:
+            EmptyView()
         }
     }
     
