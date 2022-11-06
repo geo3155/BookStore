@@ -9,21 +9,26 @@
 /* Begin PBXBuildFile section */
 		F770AF1E2909903100F1A928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F770AF1D2909903100F1A928 /* AppDelegate.swift */; };
 		F770AF202909903100F1A928 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F770AF1F2909903100F1A928 /* SceneDelegate.swift */; };
-		F770AF222909903100F1A928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F770AF212909903100F1A928 /* ViewController.swift */; };
-		F770AF252909903100F1A928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F770AF232909903100F1A928 /* Main.storyboard */; };
 		F770AF272909903100F1A928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F770AF262909903100F1A928 /* Assets.xcassets */; };
 		F770AF2A2909903100F1A928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F770AF282909903100F1A928 /* LaunchScreen.storyboard */; };
+		F7D662D129155EC00060D93D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D662D029155EC00060D93D /* SplashScreen.swift */; };
+		F7D662D32915614D0060D93D /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D662D22915614D0060D93D /* Color+Extensions.swift */; };
+		F7D662D5291562DD0060D93D /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D662D4291562DD0060D93D /* Font+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F770AF1A2909903100F1A928 /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F770AF1D2909903100F1A928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F770AF1F2909903100F1A928 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F770AF212909903100F1A928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F770AF242909903100F1A928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F770AF262909903100F1A928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F770AF292909903100F1A928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F770AF2B2909903100F1A928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D662D029155EC00060D93D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		F7D662D22915614D0060D93D /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		F7D662D4291562DD0060D93D /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		F7D662DD2915640B0060D93D /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSans-Bold.ttf"; path = "../../../../Downloads/IBM_Plex_Sans-3/IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		F7D662DE2915640B0060D93D /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSans-Medium.ttf"; path = "../../../../Downloads/IBM_Plex_Sans-3/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		F7D662DF2915640B0060D93D /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IBMPlexSans-Regular.ttf"; path = "../../../../Downloads/IBM_Plex_Sans-3/IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +63,25 @@
 			children = (
 				F770AF1D2909903100F1A928 /* AppDelegate.swift */,
 				F770AF1F2909903100F1A928 /* SceneDelegate.swift */,
-				F770AF212909903100F1A928 /* ViewController.swift */,
-				F770AF232909903100F1A928 /* Main.storyboard */,
+				F7D662D029155EC00060D93D /* SplashScreen.swift */,
+				F7D662D9291563610060D93D /* StyleSheet */,
 				F770AF262909903100F1A928 /* Assets.xcassets */,
 				F770AF282909903100F1A928 /* LaunchScreen.storyboard */,
 				F770AF2B2909903100F1A928 /* Info.plist */,
 			);
 			path = BookStore;
+			sourceTree = "<group>";
+		};
+		F7D662D9291563610060D93D /* StyleSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F7D662D22915614D0060D93D /* Color+Extensions.swift */,
+				F7D662D4291562DD0060D93D /* Font+Extension.swift */,
+				F7D662DD2915640B0060D93D /* IBMPlexSans-Bold.ttf */,
+				F7D662DE2915640B0060D93D /* IBMPlexSans-Medium.ttf */,
+				F7D662DF2915640B0060D93D /* IBMPlexSans-Regular.ttf */,
+			);
+			path = StyleSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +144,6 @@
 			files = (
 				F770AF2A2909903100F1A928 /* LaunchScreen.storyboard in Resources */,
 				F770AF272909903100F1A928 /* Assets.xcassets in Resources */,
-				F770AF252909903100F1A928 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +154,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F770AF222909903100F1A928 /* ViewController.swift in Sources */,
+				F7D662D129155EC00060D93D /* SplashScreen.swift in Sources */,
+				F7D662D5291562DD0060D93D /* Font+Extension.swift in Sources */,
 				F770AF1E2909903100F1A928 /* AppDelegate.swift in Sources */,
 				F770AF202909903100F1A928 /* SceneDelegate.swift in Sources */,
+				F7D662D32915614D0060D93D /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F770AF232909903100F1A928 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F770AF242909903100F1A928 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F770AF282909903100F1A928 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,8 +301,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BookStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,8 +327,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BookStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
