@@ -32,7 +32,7 @@ struct CustomTextFieldStyle: TextFieldStyle {
             if !text.isEmpty {
                 Text("Email adress")
                     .foregroundColor(.yellow)
-                    .transition(.push(from: .bottom))
+                    .transition(.asymmetric(insertion: .push(from: .bottom), removal: .push(from: .top)))
             }
             
             HStack {
@@ -43,9 +43,10 @@ struct CustomTextFieldStyle: TextFieldStyle {
                     .foregroundColor(.gray)
                 
                 configuration
-                    .overlay(alignment: .leading) {
+                    .foregroundColor(.black)
+                    .background(alignment: .leading) {
                         if text.isEmpty {
-                            Text("mail@domain.com")
+                            Text(verbatim: "mail@domain.com")
                                 .accentColor(.gray)
                                 .foregroundColor(.gray)
                         }
