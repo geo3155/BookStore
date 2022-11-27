@@ -13,6 +13,7 @@
 		F770AF252909903100F1A928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F770AF232909903100F1A928 /* Main.storyboard */; };
 		F770AF272909903100F1A928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F770AF262909903100F1A928 /* Assets.xcassets */; };
 		F770AF2A2909903100F1A928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F770AF282909903100F1A928 /* LaunchScreen.storyboard */; };
+		F7B68F3729215C69003664EA /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B68F3629215C69003664EA /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F770AF262909903100F1A928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F770AF292909903100F1A928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F770AF2B2909903100F1A928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B68F3629215C69003664EA /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F770AF1D2909903100F1A928 /* AppDelegate.swift */,
 				F770AF1F2909903100F1A928 /* SceneDelegate.swift */,
 				F770AF212909903100F1A928 /* ViewController.swift */,
+				F7B68F3629215C69003664EA /* CustomTextField.swift */,
 				F770AF232909903100F1A928 /* Main.storyboard */,
 				F770AF262909903100F1A928 /* Assets.xcassets */,
 				F770AF282909903100F1A928 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B68F3729215C69003664EA /* CustomTextField.swift in Sources */,
 				F770AF222909903100F1A928 /* ViewController.swift in Sources */,
 				F770AF1E2909903100F1A928 /* AppDelegate.swift in Sources */,
 				F770AF202909903100F1A928 /* SceneDelegate.swift in Sources */,
